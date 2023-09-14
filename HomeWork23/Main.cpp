@@ -127,9 +127,8 @@ bool exam_Value(std::string value) {
 			counter_Point++;
 		// Если символ "-" не первый, символ "." первый, символ "." второй при первом "-", кол-во символов "." > 1
 		// и все остальные символы не цифра от 0 до 9, то останавливаем функцию и возвращаем в mian "false"
-		if ((key_Symbol == 45 && i != 0) || (key_Symbol == 46 && i == 0) || (key_Symbol == 46 && i == 1 && first_Negative == true) || counter_Point > 1 || key_Symbol > 57 || key_Symbol == 47 || key_Symbol < 45) {
-			return false;
-		}
+		if ((key_Symbol == 45 && i != 0) || (key_Symbol == 46 && i == 0) || (key_Symbol == 46 && i == 1 && first_Negative == true) || counter_Point > 1 || key_Symbol > 57 || key_Symbol == 47 || key_Symbol < 45) 
+			return false;		
 	}
 	return true;
 }
