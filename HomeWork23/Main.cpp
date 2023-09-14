@@ -40,7 +40,7 @@ int main() {
 	}
 	else 
 		if (my_Data_Type == 'l') {
-			long long var1 = stoll(my_Strings[0]), var2 = stoll(my_Strings[2]), var3 = stoll(my_Strings[2]);
+			long long var1 = stoll(my_Strings[0]), var2 = stoll(my_Strings[1]), var3 = stoll(my_Strings[2]);
 			search_Max(var1, var2, var3);
 			std::cout << "\n\033[92mResult is:\033[0m\nNumber N 1 = " << var1 << "\nNumber N 2 = " << var2 << "\nNumber N 3 = " << var3 << "\n\n";
 		}
